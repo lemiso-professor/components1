@@ -1,0 +1,31 @@
+<nav class="bg-gray-100 text-black py-4">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <div class="flex items-center"> 
+            <img class="h-8 mr-4" src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg" alt="Your Logo" width="100" height="auto">
+            <ul class="flex space-x-4 justify-center">
+                <li><a href="#" class="hover:text-gray-700">Home</a></li>
+                <li><a href="#" class="hover:text-gray-700">About</a></li>
+                <!-- Services dropdown -->
+                <li class="relative group">
+                    <button class="dropdown-btn hover:text-gray-700 flex items-center">
+                        <span>Services</span>
+                        <svg class="w-4 h-4 ml-2 fill-current" viewBox="0 0 20 20">
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+                        </svg>
+                    </button>
+                    <!-- Dropdown menu -->
+                    <ul class="dropdown absolute hidden w-48 bg-white rounded-lg shadow-lg z-50 group-hover:block">
+                        <li class="px-4 py-2 hover:bg-gray-100"><a href="#" class="block">Service 1</a></li>
+                        <li class="px-4 py-2 hover:bg-gray-100"><a href="#" class="block">Service 2</a></li>
+                        <li class="px-4 py-2 hover:bg-gray-100"><a href="#" class="block">Service 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-gray-700">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="#" class="px-4 py-2 bg-black-600 hover:bg-blue-700 rounded-lg">Sign Up</a>
+            <a href="#" class="px-4 py-2 bg-black-600 hover:bg-blue-700 rounded-lg">Login</a>
+        </div>
+    </div>
+</nav>
